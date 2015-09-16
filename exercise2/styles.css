@@ -1,0 +1,12 @@
+body {
+	background: yellow;
+}
+
+img {max-width: 100%; }
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 5px dashed yellow;
+}
