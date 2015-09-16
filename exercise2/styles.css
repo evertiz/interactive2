@@ -1,12 +1,39 @@
 body {
-	background: yellow;
+	font-family: 'Cardo', serif;
+	background: #DDD0C0;
 }
 
-img {max-width: 100%; }
-
 .container {
-	width: 600px;
+	width: 700px;
 	margin: 0 auto;
 	padding: 20px;
-	border: 5px dashed yellow;
+	border: 5px dotted #C7E1A2;
+	background-color: white;
+}
+
+h1 {
+	color: #D07964;
+	text-align: center;
+}
+
+h2 {
+	color: #cccccc;
+	text-align: center;
+}
+
+a:link {text-decoration: none;
+	color: #000;
+}
+
+a:hover {color: #C7E1A2;}
+
+
+ul.table-of-content
+{
+	text-align: center;
+	list-style-type: none;
+}
+ul.table-of-content li
+{
+	display: inline;
 }
