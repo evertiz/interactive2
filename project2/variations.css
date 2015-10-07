@@ -1,0 +1,35 @@
+body {
+	background-color: lime;
+	text-align: center;
+}
+
+.container {
+	margin: 0 auto;
+	width: 700px;
+	background-color: white;
+}
+
+.levels
+{
+	background-color: yellow;
+	margin-top: 10px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	padding-left: 20px;
+}
+
+a:link {text-decoration: none;
+	color: blue;
+}
+
+a:hover {color: #C7E1A2;
+font-size: 50px;
+height: 60px;
+}
