@@ -1,11 +1,23 @@
 body {
-	background-color: lime;
+	background-color: #dddddd;
+	
+}
+
+h1
+{
 	text-align: center;
+	font-family: serif;
+}
+
+h2{
+	text-align: center;
+	font-family: sans-serif;
+
 }
 
 .container {
 	margin: 0 auto;
-	width: 700px;
+	width: 400px;
 	background-color: white;
 }
 
@@ -14,22 +26,29 @@ body {
 	background-color: yellow;
 	margin-top: 10px;
 	margin: 0 auto;
+	padding: 10px;
 }
 
 ul {
 	list-style-type: none;
+	height: 70px;
+
 }
 
 li {
 	display: inline;
 	padding-left: 20px;
+	font-family: sans-serif;
+	font-size: 40px;
 }
 
 a:link {text-decoration: none;
-	color: blue;
+	color: black;
 }
 
 a:hover {color: #C7E1A2;
 font-size: 50px;
-height: 60px;
+color: blue;
 }
+
+a:visited {color: black;}
