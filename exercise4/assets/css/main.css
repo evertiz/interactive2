@@ -1,0 +1,229 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.red
+{
+	background: red;
+	width: 900px;
+	height: 218px;
+	position: absolute;
+	bottom: 0;
+	
+}
+
+.object
+{
+	position: absolute;
+}
+
+.pumpkin
+{
+	background-color: orange;
+	width: 140px;
+	height: 120px;
+	border-radius: 50px;
+	right: 265px;
+	top: 255px;
+}
+
+.sphere
+{
+	background-color: #E0E0E0;
+	width: 270px;
+	height: 270px;
+	border-radius: 50%;
+	left: 193px;
+	top: 207px;
+
+}
+
+.vase-container
+{	width: 120px;
+    height: 308px;
+    bottom: 45px;
+    right: 363px;
+    /* background-color: yellow; */
+}
+
+.vase {
+    width: 120px;
+    height: 308px;
+    background: #D8C9C9;
+    opacity: .5;
+    bottom: 0;
+}
+
+.vase-bottom {
+    width: 120px;
+    height: 25px;
+    border-radius: 50%;
+    bottom: -12px;
+    background: #D8C9C9;
+}
+
+.vase-top {
+    width: 120px;
+    height: 25px;
+    border-radius: 50%;
+    top: -12px;
+    background: #D8C9C9;
+}
+
+
+.stem {
+    background: green;
+    width: 10px;
+    height: 389px;
+    bottom: 0px;
+    left: 20px;
+}
+
+.stem.two {
+	left: 41px;
+}
+
+.stem.three {
+	left: 61px;
+}
+.stem.four {
+	left: 81px;
+}
+
+.petal {
+    background: purple;
+    width: 31px;
+    height: 55px;
+    border-radius: 50%;
+    top: -127px;
+    left: 9px;
+}
+
+.petal.two
+{
+	left: 31px;
+}
+
+.petal.three
+{
+	left: 51px;
+}
+
+.petal.four
+{
+	left: 71px;
+}
+
+
+/* NEW CANVAS */
+
+.skyblue
+{
+	background: #68D8FD;
+	width: 900px;
+	height: 210px;
+	position: absolute;
+	bottom: 0;
+}
+
+.object
+{
+	position: absolute;
+}
+
+.glasscup-container
+{
+	width: 125px;
+    height: 247px;
+    bottom: 140px;
+    right: 274px;
+    /*background-color: yellow;*/
+}
+
+.glasscup {
+    width: 125px;
+    height: 247px;
+    background: #D8C9C9;
+    opacity: .5;
+    bottom: 0;
+}
+
+.glasscup-top {
+    width: 125px;
+    height: 20px;
+    border-radius: 50%;
+    top: -12px;
+    background: #AAAAC1;
+}
+
+.glasscup-water {
+    width: 125px;
+    height: 20px;
+    border-radius: 50%;
+    top: 139px;
+    background: #EAEAEA;
+}
+
+.glasscup-bottom {
+    width: 125px;
+    height: 25px;
+    border-radius: 50%;
+    bottom: -12px;
+    background: #D8C9C9;
+}
+
+.newsphere
+{
+	background-color: #E0E0E0;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    left: 199px;
+    top: 101px;
+
+}
+
+.magnifyglass
+{
+	background-color: black;
+    width: 140px;
+    height: 44px;
+    border-radius: 50px;
+    bottom: 132px;
+    right: 103px;
+}
+
+.newpumpkin
+{
+	background-color: orange;
+    width: 140px;
+    height: 130px;
+    border-radius: 50px;
+    bottom: 63px;
+    left: 265px;
+}
+
+.banana
+{
+	background-color: yellow;
+	width: 100px;
+	height: 20px;
+}
+
+.banana.one{
+	bottom: 100px;
+	right: 200px;
+}
+
