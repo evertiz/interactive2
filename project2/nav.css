@@ -1,5 +1,21 @@
 #nav-box {
 	position: fixed;
-	top: 0;
+    top: 8px;
+    left: 8px;
+    z-index: 3;
+}
+
+.square {
+    width: 15px;
+    height: 15px;
+    background: #dddddd;
+    display: inline-block;
+}
+
+.home-square {
+    width: 15px;
+    height: 15px;
+    background: yellow;
+    display: inline-block;
 }
 
