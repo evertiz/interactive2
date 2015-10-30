@@ -1,0 +1,74 @@
+.letter {
+	height: 220px;
+	background-color: lime;
+	display: inline-block;
+}
+
+.A {
+	width: 112px;
+	position: relative;
+}
+
+.A .left
+{
+	width: 15px;
+	height: 220px;
+	background-color: black;
+	position: absolute;
+	transform: skew(-11deg,0);
+	left: 22px;
+
+}
+
+.A .middle
+{
+	width: 62px;
+	height: 15px;
+	background-color: black;
+	position: absolute;
+	top: 143px;
+	left: 27px;
+}
+
+.A .right
+{
+	width: 15px;
+	height: 220px;
+	background-color: black;
+	position: absolute;
+	transform: skew(11deg,0);
+	right: 22px;
+}
+
+.B {
+	width: 112px;
+	position: relative;
+}
+
+.B .left {
+	width: 15px;
+	height: 220px;
+	background-color: black;
+	position: absolute;
+}
+
+.B .top{
+	position: absolute;
+    width: 107px;
+    height: 135px;
+    border-color: black;
+    border-style: solid;
+    border-width:15px 15px 10px 0;
+    border-radius: 0 180%220%0 /0 180%180%0;
+}
+
+.B .bottom {
+	position: absolute;
+    top: 138px;
+    width: 106px;
+    height: 76px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0 240%180%0 /0 180%180%0;
+}
+}
