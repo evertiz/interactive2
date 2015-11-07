@@ -151,6 +151,13 @@
 	position: relative;
 }
 
+.lines-E {
+	background-image: url("E.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .E .left {
 	width: 15px;
 	height: 220px;
@@ -181,7 +188,7 @@
 	height: 15px;
 	background-color: black;
 	position: absolute;
-	bottom: -220px;
+	bottom: 0px;
 	left: 0;
 }
 
@@ -190,6 +197,12 @@
 	position: relative;
 }
 
+.lines-F {
+	background-image: url("F.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
 
 .F .left {
 	width: 15px;
@@ -301,6 +314,13 @@
 	position: relative;
 }
 
+.lines-I {
+	background-image: url("I.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .I .top {
 	width: 112px;
     height: 15px;
@@ -323,13 +343,20 @@
 	height: 15px;
 	background-color: black;
 	position: absolute;
-	bottom: -220px;
+	bottom: 0px;
 	left: 0;
 }
 
 .J {
 	width: 112px;
 	position: relative;
+}
+
+.lines-J {
+	background-image: url("J-U.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .J .right {
@@ -343,7 +370,7 @@
 .J .bottom {
 	position: absolute;
     content: '';
-    bottom: -60px;
+    bottom: 0px;
     right: 0px;
     width: 82px;
     height: 61px;
@@ -400,6 +427,13 @@
 	position: relative;
 }
 
+.lines-L {
+	background-image: url("L.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 
 .L .left {
 	width: 15px;
@@ -413,7 +447,7 @@
 	height: 15px;
 	background-color: black;
 	position: absolute;
-	bottom: -220px;
+	bottom: 0px;
 	left: 0;
 }
 
@@ -695,7 +729,7 @@
 }
 
 .lines-U {
-	background-image: url("U.png");
+	background-image: url("J-U.png");
 	background-size: 100%;
 	width: 112px;
 	height: 220px;
@@ -909,6 +943,13 @@
 	position: relative;
 }
 
+.lines-one {
+	background-image: url("1.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .one .top {
 	width: 62px;
     height: 15px;
@@ -931,7 +972,7 @@
 	height: 15px;
 	background-color: black;
 	position: absolute;
-	bottom: -220px;
+	bottom: 0px;
 	left: 0;
 }
 
@@ -940,7 +981,7 @@
 	position: relative;
 }
 
-.lines-2 {
+.lines-two {
 	background-image: url("2.png");
 	background-size: 100%;
 	width: 112px;
@@ -971,7 +1012,7 @@
 	position: relative;
 }
 
-.img {
+.lines-three {
 	background-image: url("3.png");
 	background-size: 100%;
 	width: 112px;
@@ -1004,7 +1045,7 @@
 	position: relative;
 }
 
-.img {
+.lines-four {
 	background-image: url("4.png");
 	background-size: 100%;
 	width: 112px;
@@ -1040,7 +1081,7 @@
 	position: relative;
 }
 
-.img {
+.lines-five {
 	background-image: url("5.png");
 	background-size: 100%;
 	width: 112px;
@@ -1079,7 +1120,7 @@
 	position: relative;
 }
 
-.img {
+.lines-six {
 	background-image: url("6.png");
 	background-size: 100%;
 	width: 112px;
@@ -1116,7 +1157,7 @@
 	position: relative;
 }
 
-.img {
+.lines-seven {
 	background-image: url("7.png");
 	background-size: 100%;
 	width: 112px;
@@ -1145,7 +1186,7 @@
 	position: relative;
 }
 
-.img {
+.lines-eight {
 	background-image: url("8.png");
 	background-size: 100%;
 	width: 112px;
@@ -1177,7 +1218,7 @@
 	position: relative;
 }
 
-.img {
+.lines-nine {
 	background-image: url("9.png");
 	background-size: 100%;
 	width: 112px;
