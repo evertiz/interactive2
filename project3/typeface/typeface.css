@@ -1,12 +1,19 @@
 .letter {
 	height: 220px;
-	background-color: lime;
 	display: inline-block;
 }
+
 
 .A {
 	width: 112px;
 	position: relative;
+}
+
+.lines-A {
+	background-image: url("A.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .A .left
@@ -45,6 +52,13 @@
 	position: relative;
 }
 
+.lines-B {
+	background-image: url("B.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .B .left {
 	width: 15px;
 	height: 220px;
@@ -78,6 +92,13 @@
 	position: relative;
 }
 
+.lines-C {
+	background-image: url("C-G.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .C .middle {
 	position:absolute;
 	content:'';
@@ -95,6 +116,13 @@
 .D {
 	width: 112px;
 	position: relative;
+}
+
+.lines-D {
+	background-image: url("D.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .D .left {
@@ -162,6 +190,7 @@
 	position: relative;
 }
 
+
 .F .left {
 	width: 15px;
 	height: 220px;
@@ -190,6 +219,13 @@
 .G {
 	width: 112px;
 	position: relative;
+}
+
+.lines-G {
+	background-image: url("C-G.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .G .middle {
@@ -227,6 +263,13 @@
 .H {
 	width: 112px;
 	position: relative;
+}
+
+.lines-H {
+	background-image: url("H.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .H .left {
@@ -316,6 +359,13 @@
 	height: 219px;
 }
 
+.lines-K {
+	background-image: url("K.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .K .left {
 	width: 15px;
 	height: 220px;
@@ -350,6 +400,7 @@
 	position: relative;
 }
 
+
 .L .left {
 	width: 15px;
 	height: 220px;
@@ -369,6 +420,13 @@
 .M {
 	width: 112px;
 	position: relative;
+}
+
+.lines-M {
+	background-image: url("M.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .M .sides {
@@ -409,6 +467,13 @@
 	position: relative;
 }
 
+.lines-N {
+	background-image: url("N.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .N .sides {
 	position: relative;
     top: 0;
@@ -436,6 +501,13 @@
 	position: relative;
 }
 
+.lines-O {
+	background-image: url("O-Q.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .O .middle {
 	top: 0;
     width: 82px;
@@ -449,6 +521,13 @@
 .P {
 	width: 112px;
 	position: relative;
+}
+
+.lines-P {
+	background-image: url("P-R.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .P .left {
@@ -471,6 +550,13 @@
 .Q {
 	width: 112px;
 	position: relative;
+}
+
+.lines-Q {
+	background-image: url("O-Q.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .Q .middle {
@@ -498,6 +584,13 @@
 	width: 112px;
 	position: relative;
 	height: 219px;
+}
+
+.lines-R {
+	background-image: url("P-R.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 
@@ -535,6 +628,13 @@
 	position: relative;
 }
 
+.lines-S {
+	background-image: url("S.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .S .top {
 	position:absolute;
 	content:'';
@@ -565,6 +665,13 @@
 	position: relative;
 }
 
+.lines-T {
+	background-image: url("I-T-7.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .T .top {
 	width: 112px;
     height: 15px;
@@ -585,6 +692,13 @@
 .U {
 	width: 112px;
 	position: relative;
+}
+
+.lines-U {
+	background-image: url("U.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .U .top {
@@ -615,6 +729,13 @@
 	position: relative;
 }
 
+.lines-V {
+	background-image: url("V.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .V .left {
 	transform: skew(11deg,0);
     position: absolute;
@@ -638,6 +759,13 @@
 .W {
 	width: 112px;
 	position: relative;
+}
+
+.lines-W {
+	background-image: url("W.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .W .left {
@@ -671,6 +799,13 @@
 	position: relative;
 }
 
+.lines-X {
+	background-image: url("X.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .X .left {
 	transform: skew(23deg,0);
     position: absolute;
@@ -696,6 +831,13 @@
 .Y {
 	width: 112px;
 	position: relative;
+}
+
+.lines-Y {
+	background-image: url("Y.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .Y .left {
@@ -732,6 +874,13 @@
 .Z {
 	width: 112px;
 	position: relative;
+}
+
+.lines-Z {
+	background-image: url("Z.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .Z .top {
@@ -791,6 +940,13 @@
 	position: relative;
 }
 
+.lines-2 {
+	background-image: url("2.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .two .top {
 	position: absolute;
     width: 98px;
@@ -813,6 +969,13 @@
 .three {
 	width: 112px;
 	position: relative;
+}
+
+.img {
+	background-image: url("3.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .three .top{
@@ -839,6 +1002,13 @@
 .four {
 	width: 112px;
 	position: relative;
+}
+
+.img {
+	background-image: url("4.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .four .left {
@@ -868,6 +1038,13 @@
 .five {
 	width: 112px;
 	position: relative;
+}
+
+.img {
+	background-image: url("5.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .five .top {
@@ -902,6 +1079,13 @@
 	position: relative;
 }
 
+.img {
+	background-image: url("6.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .six .top {
 	position:absolute;
 	content:'';
@@ -932,6 +1116,13 @@
 	position: relative;
 }
 
+.img {
+	background-image: url("7.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .seven .top {
 	width: 112px;
 	height: 15px;
@@ -952,6 +1143,13 @@
 .eight {
 	width: 112px;
 	position: relative;
+}
+
+.img {
+	background-image: url("8.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
 }
 
 .eight .top {
@@ -979,6 +1177,13 @@
 	position: relative;
 }
 
+.img {
+	background-image: url("9.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .nine .top {
 	position: absolute;
     width: 97px;
@@ -998,27 +1203,6 @@
 	position: absolute;
 }
 
-.question {
-	width: 112px;
-	position: relative;
-}
-
-.exclamation .middle {
-	width: 15px;
-    height: 144px;
-    left: 47px;
-    background-color: black;
-    position: absolute;
-}
-
-.exclamation .point {
-	width: 15px;
-    height: 15px;
-    left: 47px;
-    background-color: black;
-    position: absolute;
-    top: 205px;
-}
 
 .exclamation {
 	width: 112px;
