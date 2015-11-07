@@ -1272,6 +1272,13 @@
 	position: relative;
 }
 
+.lines-question {
+	background-image: url("question.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
 .question .top {
 	position: absolute;
     width: 98px;
