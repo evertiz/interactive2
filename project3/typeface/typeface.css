@@ -1003,7 +1003,7 @@
 	height: 15px;
 	background-color: black;
 	position: absolute;
-	bottom: -220px;
+	bottom: 0px;
 	left: 0;
 }
 
@@ -1244,7 +1244,49 @@
 	position: absolute;
 }
 
+.zero {
+	width: 112px;
+	position: relative;
+}
 
+.lines-zero {
+	background-image: url("zero.png");
+	background-size: 100%;
+	width: 112px;
+	height: 220px;
+}
+
+.zero .left {
+	position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 99px;
+    height: 190px;
+    border-width: 15px 0 15px 15px;
+    border-color: #000000;
+    border-style: solid;
+    border-top-right-radius: 49%;
+    border-top-left-radius: 36%;
+    border-bottom-left-radius: 36%;
+    border-bottom-right-radius: 49%;
+}
+
+.zero .right {
+	position:absolute;
+	content:'';
+	top:0;
+	left:0;
+	width:97px;
+	height:190px;
+	border-width:15px 15px 15px 0;
+	border-color:#000000;
+	border-style:solid;
+	border-top-right-radius: 36%;
+    border-top-left-radius: 49%;
+    border-bottom-left-radius: 49%;
+    border-bottom-right-radius: 36%;
+}
 .exclamation {
 	width: 112px;
 	position: relative;
