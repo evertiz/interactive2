@@ -1,35 +1,50 @@
+/* body {
+	background-image: url(lines-bkgd2.jpg);
+	background-size: 100%;
+}
+*/
+
 /* navbar */
-#nav {
-	width: 960px;
+#main-container {
+	width: 900px;
+	height: 100%;
 	margin: 0 auto;
 }
 
+#nav {
+	width: 900px;
+	height: 80px;
+	/* background-color: green; */
+}
+
 ul {
-    list-style-type: none;
-    padding: 0;
+	list-style-type: none;
+	padding: 0;
 }
 
 li {
-    float: left;
-    margin-left: 200px;
+	float: left;
+	margin-left: 200px;
 }
 
 a {
-    width: 35px;
-    height: 70px;
-    background-color: black;
-    display: block;
+	width: 15px;
+	height: 70px;
+	background-color: black;
+	display: block;
 }
 
 a:hover {
-    background-color: #ccc;
+	background-color: #ccc;
 }
 
 /* homepage */
 
 .lines-title {
 	width: 900px;
-	background-color: orange;
+	/* background-color: orange; */
+	display: block;
+	margin-top: 100px;
 }
 
 
@@ -38,26 +53,26 @@ a:hover {
 .about-title {
 	transform: scale(0.5);
 	width: 900px;
-	background-color: green;
+	/* background-color: green; */
 }
 
 .about-container {
-	padding: 70px;
+	padding: 20px;
 	width: 500px;
-	background-color: blue;
+	background-color: white;
 }
 
 /* letters */
 
 .letter-container {
-	transform: scale(0.5);
+	transform: scale(1.0);
 	width: 600px;
 	margin: 0 auto;
-	background-color: red;
+	/* background-color: red; */
 }
 
 .letter-definition {
-    display: none;
+	display: none;
 }
 
 .letter {
@@ -731,29 +746,48 @@ a:hover {
 	height: 220px;
 }
 
+.S .top-bar {
+	width: 62px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
 .S .top {
-	position:absolute;
-	content:'';
-	top:0;
-	right:0;
-	width:97px;
-	height: 130px;
-	border-width: 15px 0 15px 15px;
-	border-color:#000000;
-	border-style:solid;
-	border-bottom-left-radius: 50%;
-	border-top-left-radius: 50%;
+	position: absolute;
+    content: '';
+    top: 0;
+    right: 40px;
+    width: 59px;
+    height: 130px;
+    border-width: 15px 0 15px 15px;
+    border-color: #000000;
+    border-style: solid;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+.S .bottom-bar {
+	width: 75px;
+	height: 15px;
+	background-color: black;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
 }
 
 .S .bottom {
 	position: absolute;
-	top: 144px;
-	width: 97px;
-	height: 46px;
-	border-color: black;
-	border-style: solid;
-	border-width: 15px 15px 15px 0;
-	border-radius: 0 240% 180% 0 /0 180% 180% 0;
+    top: 144px;
+    width: 66px;
+    height: 46px;
+    right: 0px;
+    border-color: black;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-radius: 0 240% 180% 0 /0 180% 180% 0;
 }
 
 .T {
@@ -864,30 +898,37 @@ a:hover {
 	height: 220px;
 }
 
+.W .sides {
+	position: relative;
+    top: 0;
+    left: 0;
+    width: 82px;
+    height: 220px;
+    border-width: 0 15px 0 15px;
+    border-color: #000000;
+    border-style: solid;
+}
+
 .W .left {
-	transform: skew(7deg,0);
-	position: absolute;
-	content: '';
-	top: 0;
-	left: 13px;
-	width: 28px;
-	height: 220px;
-	border-width: 0 13px 0 15px;
-	border-color: #000000;
-	border-style: solid;
+	transform: skew(-16deg,0);
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 26px;
+    width: 15px;
+    height: 156px;
+    background-color: #000000;
 }
 
 .W .right {
-	transform: skew(-7deg,0);
-	position: absolute;
-	content: '';
-	top: 0;
-	right: 13px;
-	width: 28px;
-	height: 220px;
-	border-width: 0 15px 0 15px;
-	border-color: #000000;
-	border-style: solid;
+	transform: skew(16deg,0);
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 27px;
+    width: 15px;
+    height: 156px;
+    background-color: #000000;
 }
 
 .X {
