@@ -25,7 +25,36 @@ a:hover {
     background-color: #ccc;
 }
 
+/* homepage */
+
+.lines-title {
+	width: 900px;
+	background-color: orange;
+}
+
+
+/* about page */
+
+.about-title {
+	transform: scale(0.5);
+	width: 900px;
+	background-color: green;
+}
+
+.about-container {
+	padding: 70px;
+	width: 500px;
+	background-color: blue;
+}
+
 /* letters */
+
+.letter-container {
+	transform: scale(0.5);
+	width: 600px;
+	margin: 0 auto;
+	background-color: red;
+}
 
 .letter-definition {
     display: none;
