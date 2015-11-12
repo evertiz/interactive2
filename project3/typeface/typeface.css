@@ -1016,12 +1016,12 @@
 
 .two .top {
 	position: absolute;
-	width: 98px;
-	height: 123px;
-	border-color: black;
-	border-style: solid;
-	border-width:15px 15px 15px 0;
-	border-radius: 0 180% 220% 0 /0 180% 180% 0;
+    width: 98px;
+    height: 144px;
+    border-color: black;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-radius: 0 180% 220% 0 /0 180% 180% 0;
 }
 
 .two .bottom {
@@ -1160,6 +1160,15 @@
     position: absolute;
     top: 0;
     left: 42px;
+}
+
+.six .middle-bar {
+	width: 56px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    top: 144px;
+    right: 47px;
 }
 
 .six .top {
