@@ -1,8 +1,8 @@
-/* body {
+body {
 	background-image: url(lines-bkgd2.jpg);
 	background-size: 100%;
 }
-*/
+
 
 /* navbar */
 #main-container {
@@ -14,7 +14,6 @@
 #nav {
 	width: 900px;
 	height: 80px;
-	/* background-color: green; */
 }
 
 ul {
@@ -42,33 +41,34 @@ a:hover {
 
 .lines-title {
 	width: 900px;
-	/* background-color: orange; */
 	display: block;
 	margin-top: 100px;
+	text-align: center;
 }
 
 
 /* about page */
 
 .about-title {
-	transform: scale(0.5);
 	width: 900px;
-	/* background-color: green; */
+	display: block;
+	text-align: center;
+	margin-top: 100px;
 }
 
 .about-container {
-	padding: 20px;
-	width: 500px;
-	background-color: white;
+	width: 900px;
+	margin-top: 100px;
 }
 
 /* letters */
 
 .letter-container {
-	transform: scale(1.0);
-	width: 600px;
+	width: 900px;
 	margin: 0 auto;
-	/* background-color: red; */
+	display: block;
+	margin-top: 100px;
+	text-align: center; 
 }
 
 .letter-definition {
@@ -78,6 +78,12 @@ a:hover {
 .letter {
 	height: 220px;
 	display: inline-block;
+	margin: 8px;
+}
+
+.space {
+	width: 112px;
+	height: 220px;
 }
 
 
@@ -748,25 +754,25 @@ a:hover {
 
 .S .top-bar {
 	width: 62px;
-    height: 15px;
-    background-color: black;
-    position: absolute;
-    top: 0px;
-    left: 50px;
+	height: 15px;
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 50px;
 }
 
 .S .top {
 	position: absolute;
-    content: '';
-    top: 0;
-    right: 40px;
-    width: 59px;
-    height: 130px;
-    border-width: 15px 0 15px 15px;
-    border-color: #000000;
-    border-style: solid;
-    border-bottom-left-radius: 50%;
-    border-top-left-radius: 50%;
+	content: '';
+	top: 0;
+	right: 40px;
+	width: 59px;
+	height: 130px;
+	border-width: 15px 0 15px 15px;
+	border-color: #000000;
+	border-style: solid;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
 }
 
 .S .bottom-bar {
@@ -780,14 +786,14 @@ a:hover {
 
 .S .bottom {
 	position: absolute;
-    top: 144px;
-    width: 66px;
-    height: 46px;
-    right: 0px;
-    border-color: black;
-    border-style: solid;
-    border-width: 15px 15px 15px 0;
-    border-radius: 0 240% 180% 0 /0 180% 180% 0;
+	top: 144px;
+	width: 66px;
+	height: 46px;
+	right: 0px;
+	border-color: black;
+	border-style: solid;
+	border-width: 15px 15px 15px 0;
+	border-radius: 0 240% 180% 0 /0 180% 180% 0;
 }
 
 .T {
@@ -900,35 +906,35 @@ a:hover {
 
 .W .sides {
 	position: relative;
-    top: 0;
-    left: 0;
-    width: 82px;
-    height: 220px;
-    border-width: 0 15px 0 15px;
-    border-color: #000000;
-    border-style: solid;
+	top: 0;
+	left: 0;
+	width: 82px;
+	height: 220px;
+	border-width: 0 15px 0 15px;
+	border-color: #000000;
+	border-style: solid;
 }
 
 .W .left {
 	transform: skew(-16deg,0);
-    position: absolute;
-    content: '';
-    bottom: 0;
-    left: 26px;
-    width: 15px;
-    height: 156px;
-    background-color: #000000;
+	position: absolute;
+	content: '';
+	bottom: 0;
+	left: 26px;
+	width: 15px;
+	height: 156px;
+	background-color: #000000;
 }
 
 .W .right {
 	transform: skew(16deg,0);
-    position: absolute;
-    content: '';
-    bottom: 0;
-    right: 27px;
-    width: 15px;
-    height: 156px;
-    background-color: #000000;
+	position: absolute;
+	content: '';
+	bottom: 0;
+	right: 27px;
+	width: 15px;
+	height: 156px;
+	background-color: #000000;
 }
 
 .X {
