@@ -1154,12 +1154,12 @@
 }
 
 .six .top-bar {
-	width: 112px;
-	height: 15px;
-	background-color: black;
-	position: absolute;
-	top: 0;
-	left: 0;
+	width: 70px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 42px;
 }
 
 .six .top {

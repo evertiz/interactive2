@@ -1237,6 +1237,15 @@ a:hover {
 	height: 220px;
 }
 
+.six .top-bar {
+	width: 70px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 42px;
+}
+
 .six .top {
 	position:absolute;
 	content:'';
