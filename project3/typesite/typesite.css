@@ -6,13 +6,13 @@ body {
 
 /* navbar */
 #main-container {
-	width: 900px;
+	width: 960px;
 	height: 100%;
 	margin: 0 auto;
 }
 
 #nav {
-	width: 900px;
+	width: 960px;
 	height: 80px;
 }
 
@@ -52,7 +52,7 @@ a:active {
 /* homepage */
 
 .lines-title {
-	width: 900px;
+	width: 960px;
 	display: block;
 	margin-top: 100px;
 	text-align: center;
@@ -62,7 +62,7 @@ a:active {
 /* about page */
 
 .about-title {
-	width: 900px;
+	width: 960px;
 	display: block;
 	margin-top: 100px;
 	text-align: center;
@@ -70,7 +70,7 @@ a:active {
 }
 
 .about-container {
-	width: 100%;
+	width: 960px;
 	margin-bottom: 50px;
 }
 
@@ -88,7 +88,7 @@ a:hover .letter-container {
 
 .letter-container {
 	transform: scale(1.0);
-	width: 900px;
+	width: 960px;
 	margin: 0 auto;
 	display: block;
 	margin-top: 100px;
