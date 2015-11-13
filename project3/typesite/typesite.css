@@ -42,7 +42,6 @@ a:hover {
 
 .lines-title {
 	width: 900px;
-	background-color: orange;
 	display: block;
 	margin-top: 100px;
 	text-align: center;
@@ -61,7 +60,6 @@ a:hover {
 }
 
 .about-container {
-	padding: 20px;
 	width: 900px;
 	/*background-color: white;*/
 }
@@ -75,7 +73,6 @@ a:hover {
 	display: block;
 	margin-top: 100px;
 	text-align: center;
-	background-color: red; 
 }
 
 .letter-definition {
@@ -1243,29 +1240,48 @@ a:hover {
 	height: 220px;
 }
 
+.six .top-bar {
+	width: 70px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 42px;
+}
+
+.six .middle-bar {
+	width: 56px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    top: 144px;
+    right: 47px;
+}
+
 .six .top {
-	position:absolute;
-	content:'';
-	top:0;
-	right:0;
-	width:97px;
-	height:190px;
-	border-width: 15px 0 15px 15px;
-	border-color:#000000;
-	border-style:solid;
-	border-bottom-left-radius: 50%;
-	border-top-left-radius: 50%;
+	position: absolute;
+    content: '';
+    top: 0;
+    right: 25px;
+    width: 71px;
+    height: 190px;
+    border-width: 15px 0 15px 15px;
+    border-color: #000000;
+    border-style: solid;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
 }
 
 .six .bottom {
 	position: absolute;
-	top: 138px;
-	width: 97px;
-	height: 52px;
-	border-color: black;
-	border-style: solid;
-	border-width: 15px 15px 15px 0;
-	border-radius: 0 240% 180% 0 /0 180% 180% 0;
+    top: 144px;
+    width: 42px;
+    height: 46px;
+    right: 0px;
+    border-color: black;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-radius: 0 240% 180% 0 /0 180% 180% 0;
 }
 
 .seven {
