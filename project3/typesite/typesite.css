@@ -95,16 +95,20 @@ a:hover .letter-container {
 	text-decoration: none;
 }
 
-
-.letter-container {
-	transform: scale(1.0);
+.abc-title {
 	width: 960px;
-	margin: 0 auto;
 	display: block;
 	margin-top: 100px;
 	text-align: center;
 	margin-bottom: 50px;
-	padding-top: 20px;
+}
+
+
+.letter-container {
+	transform: scale(1.0);
+	width: 960px;
+	margin-bottom: 50px;
+	padding: 20px;
 }
 
 .letter-definition {
