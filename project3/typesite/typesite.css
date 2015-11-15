@@ -79,7 +79,7 @@ a:hover .about-container {
 }
 
 .about-container {
-	width: 960px;
+	width: 940px;
 	margin-bottom: 50px;
 	padding: 20px;
 }
@@ -106,7 +106,7 @@ a:hover .letter-container {
 
 .letter-container {
 	transform: scale(1.0);
-	width: 960px;
+	width: 940px;
 	margin-bottom: 50px;
 	padding: 20px;
 }
