@@ -81,7 +81,7 @@ a:hover .about-container {
 .about-container {
 	width: 960px;
 	margin-bottom: 50px;
-	padding-top: 20px;
+	padding: 20px;
 }
 
 /* letters */
