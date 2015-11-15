@@ -61,6 +61,15 @@ a:active {
 
 /* about page */
 
+a.about-container {
+	text-decoration: none;
+}
+
+a:hover .about-container {
+	background-color: lime;
+	text-decoration: none;
+}
+
 .about-title {
 	width: 960px;
 	display: block;
