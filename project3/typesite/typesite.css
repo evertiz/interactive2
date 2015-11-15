@@ -35,18 +35,18 @@ a {
 
 
 a:visited {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 a:hover {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 a:active {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 /* homepage */
@@ -794,25 +794,25 @@ a:hover .letter-container {
 
 .S .top-bar {
 	width: 62px;
-    height: 15px;
-    background-color: black;
-    position: absolute;
-    top: 0px;
-    left: 50px;
+	height: 15px;
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 50px;
 }
 
 .S .top {
 	position: absolute;
-    content: '';
-    top: 0;
-    right: 40px;
-    width: 59px;
-    height: 130px;
-    border-width: 15px 0 15px 15px;
-    border-color: #000000;
-    border-style: solid;
-    border-bottom-left-radius: 50%;
-    border-top-left-radius: 50%;
+	content: '';
+	top: 0;
+	right: 40px;
+	width: 59px;
+	height: 130px;
+	border-width: 15px 0 15px 15px;
+	border-color: #000000;
+	border-style: solid;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
 }
 
 .S .bottom-bar {
@@ -826,14 +826,14 @@ a:hover .letter-container {
 
 .S .bottom {
 	position: absolute;
-    top: 144px;
-    width: 66px;
-    height: 46px;
-    right: 0px;
-    border-color: black;
-    border-style: solid;
-    border-width: 15px 15px 15px 0;
-    border-radius: 0 240% 180% 0 /0 180% 180% 0;
+	top: 144px;
+	width: 66px;
+	height: 46px;
+	right: 0px;
+	border-color: black;
+	border-style: solid;
+	border-width: 15px 15px 15px 0;
+	border-radius: 0 240% 180% 0 /0 180% 180% 0;
 }
 
 .T {
@@ -946,35 +946,35 @@ a:hover .letter-container {
 
 .W .sides {
 	position: relative;
-    top: 0;
-    left: 0;
-    width: 82px;
-    height: 220px;
-    border-width: 0 15px 0 15px;
-    border-color: #000000;
-    border-style: solid;
+	top: 0;
+	left: 0;
+	width: 82px;
+	height: 220px;
+	border-width: 0 15px 0 15px;
+	border-color: #000000;
+	border-style: solid;
 }
 
 .W .left {
 	transform: skew(-16deg,0);
-    position: absolute;
-    content: '';
-    bottom: -2px;
-    left: 26px;
-    width: 15px;
-    height: 156px;
-    background-color: #000000;
+	position: absolute;
+	content: '';
+	bottom: -2px;
+	left: 26px;
+	width: 15px;
+	height: 156px;
+	background-color: #000000;
 }
 
 .W .right {
 	transform: skew(16deg,0);
-    position: absolute;
-    content: '';
-    bottom: -2px;
-    right: 27px;
-    width: 15px;
-    height: 156px;
-    background-color: #000000;
+	position: absolute;
+	content: '';
+	bottom: -2px;
+	right: 27px;
+	width: 15px;
+	height: 156px;
+	background-color: #000000;
 }
 
 .X {
@@ -1139,22 +1139,20 @@ a:hover .letter-container {
 
 .two .top {
 	position: absolute;
-    width: 98px;
-    height: 152px;
-    border-color: black;
-    border-style: solid;
-    border-width: 15px 15px 0 0;
-    border-radius: 0 180% 231% 121% /0 180% 180% 0;
+	width: 98px;
+	height: 144px;
+	border-color: black;
+	border-style: solid;
+	border-width: 15px 15px 15px 0;
+	border-radius: 0 180% 220% 0 /0 180% 180% 0;
 }
 
-.two .middle {
+.two .left {
+	width: 15px;
+	height: 55px;
+	top: 162px;
+	background-color: black;
 	position: absolute;
-    width: 20px;
-    left: 45px;
-    height: 75px;
-    bottom: 14px;
-    background: black;
-    transform: skew(130deg);
 }
 
 .two .bottom {
@@ -1162,9 +1160,9 @@ a:hover .letter-container {
 	height: 15px;
 	background-color: black;
 	position: absolute;
-	bottom: 0px;
-	left: 0;
+	top: 205px;
 }
+
 
 .three {
 	width: 112px;
@@ -1213,18 +1211,18 @@ a:hover .letter-container {
 
 .four .left {
 	width: 15px;
-    height: 153px;
-    background-color: black;
-    position: absolute;
+	height: 153px;
+	background-color: black;
+	position: absolute;
 }
 
 .four .middle {
 	width: 112px;
-    height: 15px;
-    background-color: black;
-    position: absolute;
-    top: 138px;
-    left: 0;
+	height: 15px;
+	background-color: black;
+	position: absolute;
+	top: 138px;
+	left: 0;
 }
 
 .four .right {
@@ -1288,46 +1286,46 @@ a:hover .letter-container {
 
 .six .top-bar {
 	width: 70px;
-    height: 15px;
-    background-color: black;
-    position: absolute;
-    top: 0;
-    left: 42px;
+	height: 15px;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 42px;
 }
 
 .six .middle-bar {
 	width: 56px;
-    height: 15px;
-    background-color: black;
-    position: absolute;
-    top: 144px;
-    right: 47px;
+	height: 15px;
+	background-color: black;
+	position: absolute;
+	top: 144px;
+	right: 47px;
 }
 
 .six .top {
 	position: absolute;
-    content: '';
-    top: 0;
-    right: 25px;
-    width: 71px;
-    height: 190px;
-    border-width: 15px 0 15px 15px;
-    border-color: #000000;
-    border-style: solid;
-    border-bottom-left-radius: 50%;
-    border-top-left-radius: 50%;
+	content: '';
+	top: 0;
+	right: 25px;
+	width: 71px;
+	height: 190px;
+	border-width: 15px 0 15px 15px;
+	border-color: #000000;
+	border-style: solid;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
 }
 
 .six .bottom {
 	position: absolute;
-    top: 144px;
-    width: 42px;
-    height: 46px;
-    right: 0px;
-    border-color: black;
-    border-style: solid;
-    border-width: 15px 15px 15px 0;
-    border-radius: 0 240% 180% 0 /0 180% 180% 0;
+	top: 144px;
+	width: 42px;
+	height: 46px;
+	right: 0px;
+	border-color: black;
+	border-style: solid;
+	border-width: 15px 15px 15px 0;
+	border-radius: 0 240% 180% 0 /0 180% 180% 0;
 }
 
 .seven {
@@ -1375,25 +1373,25 @@ a:hover .letter-container {
 
 .eight .top {
 	position: absolute;
-    width: 82px;
-    height: 130px;
-    border-width: 15px;
-    border-color: #000000;
-    border-style: solid;
-    border-radius: 50% /50%;
-    right: 0px;
+	width: 82px;
+	height: 130px;
+	border-width: 15px;
+	border-color: #000000;
+	border-style: solid;
+	border-radius: 50% /50%;
+	right: 0px;
 }
 
 .eight .bottom {
 	position: absolute;
-    width: 82px;
-    height: 45px;
-    border-width: 15px;
-    border-color: #000000;
-    border-style: solid;
-    border-radius: 50% /50%;
-    top: 145px;
-    right: 0px;
+	width: 82px;
+	height: 45px;
+	border-width: 15px;
+	border-color: #000000;
+	border-style: solid;
+	border-radius: 50% /50%;
+	top: 145px;
+	right: 0px;
 }
 
 .nine {
