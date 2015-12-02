@@ -2,20 +2,22 @@
 	<html>
 	<head>
 		<title>Fin Hotel</title>
-		<link rel="stylesheet" href="lightslider.css" />
-		<link rel="stylesheet" href="fish.css" />
+		<link rel="stylesheet" href="css/fish.css" />
+		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
 		<div id="main-container">
-			<!-- <div id="head-container">
-				<div id="logo"></div>
+		<div id="head-container">
+				<div id="logo"><img src="images/fh-logo.png"></div>
 				<div id="nav-container"></div>
-			</div> -->
+			</div>
+
+
 			<div id="homepage-container">
-				<div id="home-tag-line">Fish Tank Luxury Hotel</div>
-				<div id="home-subtag-line">at just the right water temperature</div>
-				<div id ="home-subtag-graphic"></div>
+				<div id="home-tag-line">Fish Hotel</div>
+				<div id="home-subtag-line">a tagline would go hereeee</div>
+				<div id ="home-subtag-graphic"><img src="images/fh-graphics.png"></div>
 				<div class="homepage-button">View Our Fish Rooms</div>
 			</div>
 
@@ -23,8 +25,8 @@
 
 			<div class="row">
 				<div class="info-box">
-					<div class="info-title">THE ROOMS</div>
-					<div class="info-graphic"></div>
+					<div class="info-title">The Rooms</div>
+					<div class="info-graphic"><img src="images/fh-graphics.png"></div>
 					<div class="info-body">Each room is set at just the right swim temperature for our fishy friends. Each room is protected from shark predators since it is in a fish tank.</div>
 				</div>
 
@@ -41,8 +43,8 @@
 				</div>
 
 				<div class="info-box">
-					<div class="info-title">THE ROOMS</div>
-					<div class="info-graphic"></div>
+					<div class="info-title">The Rooms</div>
+					<div class="info-graphic"><img src="images/fh-graphics.png"></div>
 					<div class="info-body">Each room is set at just the right swim temperature for our fishy friends. Each room is protected from shark predators since it is in a fish tank.</div>
 				</div>
 
@@ -56,14 +58,15 @@
 				<div id="quote-tag-line">Fish Bubble Quotes</div>
 				<div id="quote-subtag-graphic"></div>
 
-				<div id="imgGallary" class="slide-container">
-					<img src="images/fishquotes1.jpg" />
-					<img src="images/fishquotes2.jpg" />
-				</div>	
+				<div id="quote-zone" class="slide-container">
+				    <p>Hi what's up</p>
+				    <p>Hellooo</p>
+				    <p>Goodbye</p>
+				</div>
 			</div>
 
 
-<div class="row">
+			<div class="row">
 				<div class="info-box">
 					<img src="images/map.jpg">
 				</div>
@@ -86,21 +89,23 @@
 		<script>
 
 		$(document).ready(function(){
-			var imgLen = document.getElementById('imgGallary');
-			var images = imgLen.getElementsByTagName('img');
-			var counter = 1;
+		        var quotes = document.getElementById('quote-zone');
+		        var paragraphs = quotes.getElementsByTagName('p');
+		        var counter = 1;
+		        $(paragraphs).hide();
 
-			if(counter <= images.length){
-				setInterval(function(){
-					images[0].src = images[counter].src;
-					console.log(images[counter].src);
-					counter++;
+		        if(counter <= paragraphs.length){
+		            setInterval(function(){
+		                paragraphs[0] = paragraphs[counter];
+		                console.log(paragraphs[counter]);
+		                $(paragraphs[counter]).show();
+		                counter++;
 
-					if(counter === images.length){
-						counter = 1;
-					}
-				},3000);
-			}
+		                if(counter === paragraphs.length){
+		                    counter = 1;
+		                }
+		            },3000);
+		        }
 		});
 
 		</script>

@@ -14,15 +14,16 @@ img {
 }
 
 #head-container {
-	width: 100%;
-	height: 60px;
-	background-color: yellow;
+	position: absolute;
+    /* opacity: 0.3; */
+    width: 100%;
+    height: 124px;
+    /* background-color: #9AD0FF; */
 }
 
 #logo {
-	width: 165px;
-	height: 45px;
-	background-color: green;
+	width: 148px;
+	height: 90px;
 	position: absolute;
     left: 70px;
     top: 16px;
@@ -31,7 +32,7 @@ img {
 #nav-container {
 	width: 400px;
 	height: 20px;
-	background-color: purple;
+	/* background-color: purple; */
 	position: absolute;
     right: 0px;
     top: 30px;
@@ -39,36 +40,36 @@ img {
 
 #homepage-container {
 	width: 100%;
-	background-color: red;
-	background-image: url("images/roomfish-2.jpg");
-	background-repeat: no-repeat;
-	background-size: 110%;
+	background: url("../images/roomfish-2.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	padding-bottom: 338px;
 }
 
 #home-tag-line {
 	text-align: center;
-	font-size: 50px;
-	font-family: serif;
-	color: blue;
-	padding-top: 252px;
+	font-size: 65px;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	color: black;
+	padding-top: 204px;
 }
 
 #home-subtag-line {
 	text-align: center;
-	font-size: 24px;
-	font-family: serif;
+	font-size: 28px;
+	font-family: 'Playfair Display', serif;
 	font-style: italic;
-	color: blue;
+	color: black;
 	padding-top: 13px;
 }
 
 #home-subtag-graphic {
-    width: 260px;
-    height: 33px;
-    background-color: blue;
+    width: 303px;
+    height: 45px;
     margin-top: 21px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -84,6 +85,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Playfair Display', serif;
 }
 
 #reservation-container {
@@ -93,11 +95,11 @@ img {
 }
 
 .row {
+	background-color: #9AD0FF;
 }
 
 .info-box {
 	width: 50%;
-	height: 647px;
 	float: left;
 	background-color: #9AD0FF;
 }
@@ -109,7 +111,7 @@ img {
 .info-title {
 	text-align: center;
 	font-size: 40px;
-	font-family: serif;
+	font-family: 'Playfair Display', serif;
 	color: white;
 	padding-top: 130px;
 }
@@ -117,7 +119,6 @@ img {
 .info-graphic {
 	width: 160px;
     height: 33px;
-    background-color: blue;
     margin-top: 21px;
     display: block;
     margin-left: auto;
@@ -129,9 +130,7 @@ img {
     font-size: 22px;
     font-family: serif;
     color: white;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 30px; 
 }
 
 .room-img
@@ -183,7 +182,7 @@ img {
 @media screen and (max-width: 830px) {
 
   #homepage-container {
-  	background: none;
+ 
   }
 
   .info-box {
