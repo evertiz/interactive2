@@ -1,8 +1,16 @@
+body {
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+
 #main-container { 
 	width: 100%;
 	/* height: 960px; */
 	margin: 0 auto;
-	background-color: orange;
+	/* background-color: orange; */
 }
 
 #head-container {
@@ -25,18 +33,17 @@
 	height: 20px;
 	background-color: purple;
 	position: absolute;
-    right: 60px;
+    right: 0px;
     top: 30px;
 }
 
 #homepage-container {
 	width: 100%;
-	height: 570px;
 	background-color: red;
-	background-image: url("home-img.jpg");
+	background-image: url("images/roomfish-2.jpg");
 	background-repeat: no-repeat;
 	background-size: 110%;
-
+	padding-bottom: 338px;
 }
 
 #home-tag-line {
@@ -44,7 +51,7 @@
 	font-size: 50px;
 	font-family: serif;
 	color: blue;
-	padding-top: 175px;
+	padding-top: 252px;
 }
 
 #home-subtag-line {
@@ -85,19 +92,26 @@
 	background-color: #ccc;
 }
 
-.info-box: {
-	width: 700px;
-	height: 100px;
-	display: inline-block;
-	background-color: lime;
+.row {
+}
+
+.info-box {
+	width: 50%;
+	height: 647px;
+	float: left;
+	background-color: #9AD0FF;
+}
+
+.clearer {
+	clear: both;
 }
 
 .info-title {
 	text-align: center;
-	font-size: 20px;
+	font-size: 40px;
 	font-family: serif;
-	color: blue;
-	padding-top: 10px;
+	color: white;
+	padding-top: 130px;
 }
 
 .info-graphic {
@@ -112,17 +126,19 @@
 
 .info-body {
 	text-align: center;
-	font-size: 15px;
-	font-family: serif;
-	color: blue;
-	padding-top: 10px;
+    font-size: 22px;
+    font-family: serif;
+    color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .room-img
 {
 	width: 700px;
 	height: 492px;
-	background-image: url("fish-room.jpg");
+	background-image: url("images/roomfish-1.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -131,7 +147,6 @@
 	width: 100%;
 	height: 300px;
 	background-color: #ccc;
-
 }
 
 #quote-tag-line {
@@ -139,22 +154,41 @@
 	font-size: 30px;
 	font-family: serif;
 	color: blue;
-	padding-top: 70px;
+	padding-top: 22px;
 }
 
 #quote-subtag-graphic {
     width: 260px;
     height: 33px;
     background-color: blue;
-    margin-top: 21px;
+    margin-top: 14px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#quote-box {
-	width: 400px;
-	height: 200px;
+.slide-container {
+    position: relative;
+    width: 500px;
+    height: 130px;
+    border: 1px solid red;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34px;
+}
 
+/* Media Queries */
+
+@media screen and (max-width: 830px) {
+
+  #homepage-container {
+  	background: none;
+  }
+
+  .info-box {
+  	float: none;
+  	width: 100%;
+  }
 
 }
