@@ -8,7 +8,7 @@
 
 	<body>
 		<div id="main-container">
-		<div id="head-container">
+			<div id="head-container">
 				<div id="logo"><img src="images/fh-logo.png"></div>
 				<div id="nav-container"></div>
 			</div>
@@ -56,12 +56,21 @@
 
 			<div id="quote-container">
 				<div id="quote-tag-line">Fish Bubble Quotes</div>
-				<div id="quote-subtag-graphic"></div>
+				<div id="quote-subtag-graphic"><img src="images/fh-graphics.png"></div>
 
-				<div id="quote-zone" class="slide-container">
-				    <p>Hi what's up</p>
-				    <p>Hellooo</p>
-				    <p>Goodbye</p>
+				<div id="quote-zone">
+					<p>
+						"My fish really enjoyed his stay at the Fish Hotel. It really helped him get over his social anxiety, while I was away on a business trip."
+						<span class="source">John Gup</span>
+					</p>
+					<p>
+						"When I came back from my vaction, my fish just kept swimming! She really enjoyed her experience at Fish Hotel."
+						<span class="source">Dora Finley</span>
+					</p>
+					<p>
+						"Goodbye"
+						<span class="source">Dog</span>
+					</p>
 				</div>
 			</div>
 
@@ -89,23 +98,20 @@
 		<script>
 
 		$(document).ready(function(){
-		        var quotes = document.getElementById('quote-zone');
-		        var paragraphs = quotes.getElementsByTagName('p');
-		        var counter = 1;
-		        $(paragraphs).hide();
+			var paragraphs = $('#quote-zone p')
+			var counter = 0;
 
-		        if(counter <= paragraphs.length){
-		            setInterval(function(){
-		                paragraphs[0] = paragraphs[counter];
-		                console.log(paragraphs[counter]);
-		                $(paragraphs[counter]).show();
-		                counter++;
+			if(counter <= paragraphs.length){
+				setInterval(function(){
+					paragraphs.hide();
+					$(paragraphs[counter]).show();
+					counter++;
 
-		                if(counter === paragraphs.length){
-		                    counter = 1;
-		                }
-		            },3000);
-		        }
+					if(counter === paragraphs.length){
+						counter = 0;
+					}
+				},3000);
+			}
 		});
 
 		</script>
