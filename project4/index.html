@@ -1,16 +1,20 @@
 	<!DOCTYPE>
 	<html>
 	<head>
-		<title>Fin Hotel</title>
+		<title>Fish Hotel</title>
 		<link rel="stylesheet" href="css/fish.css" />
 		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+
+		<link rel="icon" 
+		type="image/png" 
+		href="images/favicon.png">
+
 	</head>
 
 	<body>
 		<div id="main-container">
 			<div id="head-container">
 				<div id="logo"><img src="images/fh-logo.png"></div>
-				<div id="nav-container"></div>
 			</div>
 
 
@@ -21,100 +25,120 @@
 				<div class="homepage-button">View Our Fish Rooms</div>
 			</div>
 
-			<div id="reservation-container">Reservations go here</div>
+			<div id="reservation-container">
+				<div class="reservation-content">
+					<class="reservation-bkgd">
+					<div class="reservation-checkin">Check In</div>
+					<div class="reservation-checkin">Check Out</div>
+					<div class="reservation-checkin">Room Type</div>
+					<div class="clearer"></div>
 
-			<div class="row">
-				<div class="info-box">
-					<div class="info-title">The Rooms</div>
-					<div class="info-graphic"><img src="images/fh-graphics.png"></div>
-					<div class="info-body">Each room is set at just the right swim temperature for our fishy friends. Each room is protected from shark predators since it is in a fish tank.</div>
+					<div class="reservation-checkin-box">
+						<div class="reservation-date">12/07/2015</div>
+					</div>
+					<div class="reservation-checkin-box">
+					<div class="reservation-date">12/09/2015</div>
 				</div>
-
-				<div class="info-box">
-					<img src="images/roomfish-1.jpg">
+					<div class="reservation-checkin-box">
+					<div class="reservation-date">Single Bed</div>
 				</div>
-
-				<div class="clearer"></div>
-			</div>
-
-			<div class="row">
-				<div class="info-box">
-					<img src="images/roomfish-5.jpg">
-				</div>
-
-				<div class="info-box">
-					<div class="info-title">The Rooms</div>
-					<div class="info-graphic"><img src="images/fh-graphics.png"></div>
-					<div class="info-body">Each room is set at just the right swim temperature for our fishy friends. Each room is protected from shark predators since it is in a fish tank.</div>
-				</div>
-
-				<div class="clearer"></div>
-			</div>
-
-
-
-
-			<div id="quote-container">
-				<div id="quote-tag-line">Fish Bubble Quotes</div>
-				<div id="quote-subtag-graphic"><img src="images/fh-graphics.png"></div>
-
-				<div id="quote-zone">
-					<p>
-						"My fish really enjoyed his stay at the Fish Hotel. It really helped him get over his social anxiety, while I was away on a business trip."
-						<span class="source">John Gup</span>
-					</p>
-					<p>
-						"When I came back from my vaction, my fish just kept swimming! She really enjoyed her experience at Fish Hotel."
-						<span class="source">Dora Finley</span>
-					</p>
-					<p>
-						"Goodbye"
-						<span class="source">Dog</span>
-					</p>
+					<div class="clearer"></div>
 				</div>
 			</div>
-
-
-			<div class="row">
-				<div class="info-box">
-					<img src="images/map.jpg">
-				</div>
-
-				<div class="info-box">
-					<div class="info-title">Location</div>
-					<div class="info-graphic"></div>
-					<div class="info-body">This Hotel is located in the lovely San Francisco Bay Area. To be more specific, CCA.</div>
-				</div>
-
-				<div class="clearer"></div>
-			</div>
-
-
 		</div>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<div class="row">
+			<div class="info-box">
+				<div class="info-title">The Rooms</div>
+				<div class="info-graphic"><img src="images/fh-graphics.png"></div>
+				<div class="info-body">Each room is set at just the right swim temperature for our fishy friends. Each room is protected from shark predators since it is in a fish tank.</div>
+			</div>
+
+			<div class="info-box">
+				<img src="images/roomfish-1.jpg">
+			</div>
+
+			<div class="clearer"></div>
+		</div>
+
+		<div class="row">
+			<div class="info-box">
+				<img src="images/roomfish-5.jpg">
+			</div>
+
+			<div class="info-box">
+				<div class="info-title">The Rooms</div>
+				<div class="info-graphic"><img src="images/fh-graphics.png"></div>
+				<div class="info-body">Each room is set at just the right swim temperature for our fishy friends. Each room is protected from shark predators since it is in a fish tank.</div>
+			</div>
+
+			<div class="clearer"></div>
+		</div>
 
 
-		<script>
 
-		$(document).ready(function(){
-			var paragraphs = $('#quote-zone p')
-			var counter = 0;
 
-			if(counter <= paragraphs.length){
-				setInterval(function(){
-					paragraphs.hide();
-					$(paragraphs[counter]).show();
-					counter++;
+		<div id="quote-container">
+			<div id="quote-tag-line">Fish Bubble Quotes</div>
+			<div id="quote-subtag-graphic"><img src="images/fh-graphics.png"></div>
 
-					if(counter === paragraphs.length){
-						counter = 0;
-					}
-				},3000);
-			}
-		});
+			<div id="quote-zone">
+				<p>
+					"My fish really enjoyed his stay at the Fish Hotel. It really helped him get over his social anxiety, while I was away on a business trip."
+					<span class="source">John Gup</span>
+				</p>
+				<p>
+					"When I came back from my vaction, my fish just kept swimming! She really enjoyed her experience at Fish Hotel."
+					<span class="source">Dora Finley</span>
+				</p>
+				<p>
+					"Goodbye"
+					<span class="source">Dog</span>
+				</p>
+			</div>
+		</div>
 
-		</script>
-	</body>
 
-	</html>
+		<div class="row">
+			<div class="info-box">
+				<img src="images/map.jpg">
+			</div>
+
+			<div class="info-box">
+				<div class="info-title">Location</div>
+				<div class="info-graphic"></div>
+				<div class="info-body">This Hotel is located in the lovely San Francisco Bay Area. To be more specific, CCA.</div>
+			</div>
+
+			<div class="clearer"></div>
+		</div>
+
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+	<script>
+
+	$(document).ready(function(){
+		var paragraphs = $('#quote-zone p')
+		var counter = 0;
+
+		if(counter <= paragraphs.length){
+			setInterval(function(){
+				paragraphs.hide();
+				$(paragraphs[counter]).show();
+				counter++;
+
+				if(counter === paragraphs.length){
+					counter = 0;
+				}
+			},3000);
+		}
+	});
+
+	</script>
+</body>
+
+</html>
