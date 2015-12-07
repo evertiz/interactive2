@@ -76,26 +76,38 @@ img {
     margin-left: auto;
     margin-right: auto;
     font-family: 'Playfair Display', serif;
-    color: white;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.43);
 }
 
 #reservation-container {
 	width: 100%;
 	height: 100px;
     position: relative;
-    background-color: #9AD0FF;
+    bottom: 100px;
+    margin-bottom: -100px;
+    /*background-color: #C3E2FF;*/
 }
 
 .reservation-content {
-
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 7;
 }
 
 .reservation-bkgd { 
     position: absolute;
-    background-color: black;
-    opacity: 0.3;
+    background-color: rgba(255, 255, 255, 0.43);
+    opacity: 1;
     top: 0;
-    right: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid orangered;
+    border-bottom: 1px solid orangered;
 }
 
 
@@ -120,11 +132,29 @@ img {
     margin-right: -35px;
 }
 
+#reservation-button {
+    width: 197px;
+    height: 28px;
+    background-color: white;
+    float: left;
+    margin-left: 119px;
+}
+
+.reservation-text {
+    width: 143px;
+    height: 18px;
+    margin-top: 3px;
+    margin-left: 59px;
+    font-family: 'Playfair Display', serif;
+    color: orangered;
+}
+
+
 .reservation-date {
     width: 143px;
     height: 18px;
     margin-top: 3px;
-    margin-left: 11px;
+    margin-left: 16px;
     font-family: 'Playfair Display', serif;
 }
 
@@ -180,6 +210,8 @@ img {
 	width: 100%;
 	height: 300px;
 	background-color: white;
+    border-top: 1px solid orangered;
+    border-bottom: 1px solid orangered;
 }
 
 #quote-tag-line {
@@ -229,6 +261,12 @@ img {
   display: block;
   font-size: 15px;
   margin-top: 1em;
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: white;
 }
 
 /* Media Queries */
