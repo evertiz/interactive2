@@ -221,7 +221,7 @@ a:hover {
 
 #quote-container {
 	width: 100%;
-	height: 300px;
+	height: 275px;
 	background-color: white;
     border-top: 1px solid orangered;
     border-bottom: 1px solid orangered;
@@ -229,7 +229,7 @@ a:hover {
 
 #quote-tag-line {
 	text-align: center;
-	font-size: 30px;
+	font-size: 35px;
 	font-family: 'Playfair Display', serif;
 	padding-top: 58px;
 }
@@ -285,6 +285,7 @@ a:hover {
     font-family: 'Playfair Display', serif;
     color: black;
     font-size: 13px;
+    text-align: center;
     padding-top: 30px;
     padding-left: 30px;
     padding-bottom: 30px;
@@ -292,20 +293,11 @@ a:hover {
 
 /* Media Queries */
 
-@media screen and (max-width: 1120px) {
 
-    .info-title {
-        padding-top: 60px;
-    }
-}
-
-@media screen and (max-width: 830px) {
-
-  #homepage-container {
-
-  }
+@media screen and (max-width: 320px) {
 
   .info-box {
+    font-size: 8px;
   	float: none;
   	width: 100%;
   }
